@@ -1,0 +1,70 @@
+# =========================================================================
+#                   ЭТАЛОННЫЙ .GITIGNORE ДЛЯ UNITY-ПРОЕКТА
+# =========================================================================
+
+# --- Временные папки и кэш Unity (Генерируются автоматически) ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Cc]aptures/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+
+# --- Настройки пользователя (У каждого разработчика свои) ---
+/[Uu]serSettings/
+
+# --- Кэш пакетов (Package Manager сам их скачает при открытии) ---
+/[Aa]ssets/[Cc]onfiguration/
+/[Pk]g[Mm]gr/
+
+# --- Исключения для локальных билдов ---
+# Позволяет собирать билды в папки Build или Builds внутри проекта, не засоряя Git
+/[Bb]uild/
+/[Bb]uilds/
+/[𝘉𝘣]uild/
+/🎨Builds/
+*.apk
+*.aab
+*.unitypackage
+*.app
+TestBuild/
+TestBuildGameMenu/
+
+# --- Файлы решений IDE (Visual Studio, Rider, VS Code) ---
+# Они генерируются Unity автоматически на основе файлов .meta
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.傑proj
+.vs/
+.idea/
+.vscode/
+sysinfo.txt
+*.stackdump
+
+# --- Системные файлы операционных систем (Windows / macOS) ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# =========================================================================
+# ВАЖНО: Папка ProjectSettings/ ДОЛЖНА сохраняться в Git!
+# Настройки плагинов, физики, тегов и слоев лежат там.
+# Ни в коем случае не пиши сюда /ProjectSettings/
+# =========================================================================
